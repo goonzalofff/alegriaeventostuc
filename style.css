@@ -202,16 +202,16 @@ header {
 
 /* Retrasos individuales */
 .animated-word:nth-child(1) {
-  animation-delay: 0.2s;
+  animation-delay: 5.2s;
 }
 .animated-word:nth-child(2) {
-  animation-delay: 0.4s;
+  animation-delay: 5.4s;
 }
 .animated-word:nth-child(3) {
-  animation-delay: 0.6s;
+  animation-delay: 10.6s;
 }
 .animated-word:nth-child(4) {
-  animation-delay: 0.8s;
+  animation-delay: 10.8s;
 }
 .hero-content h2 {
    font-size: 54px;
@@ -718,7 +718,20 @@ header {
   gap: 20px; /* Espacio entre palabras */
   color: rgb(235, 231, 231); /* Color del texto */
   font-family:cursive;
-  font-size: 50px;
+  font-size: 30px;
+    }
+    .cta-button {
+  
+      text-decoration: none;
+      color: #fff;
+      font-size: 30px;
+      padding: 10px 30px;
+      background-color: #189635;
+      border-radius: 50px;
+      margin-top: 30px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 0 15px rgba(14, 13, 13, 0.308);
     }
 
    .video-container {
