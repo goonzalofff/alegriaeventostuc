@@ -359,7 +359,7 @@ header {
   background:linear-gradient(45deg,hsl(39, 86%, 57%),#e79c46,#a8ad64,#c4af6b );
   background-size :58em; /* Asegura que la imagen cubra todo el contenedor */
   background-position:absolute;
-  color: #e6dede;
+  color: #140f0f;
   
   padding: 1rem 0;
   margin-top: 3rem;
@@ -442,7 +442,7 @@ header {
 }
 .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta .detalles h3 {
   margin-bottom: 0.3125rem;
-  color: #f8f3f3;
+  color: #141313;
   text-align: center;
 }
 .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta .detalles p {
@@ -457,6 +457,7 @@ header {
   padding: 5rem 10;
   margin-bottom: 3rem;
   text-align: center;
+  font-family: cursive;
   
   
 }
@@ -570,7 +571,7 @@ header {
   padding: 5rem 10;
   margin-bottom: 3rem;
   text-align: center;
-  font-family: cursive;
+  
   
 }
 
@@ -786,8 +787,8 @@ header {
 
       background-size:  90rem; /* Asegura que la imagen cubra todo el contenedor */
       background-position:cover;
-      color: #0e0d0d;
-      text-shadow: 8px 1px 0 #c4b8b8;
+      color: #141313;
+      
       padding: 1rem 0;
       margin-bottom: 3rem;
       text-align: center;
@@ -806,7 +807,7 @@ header {
       position: relative;
       width: 18.75rem;
       height: 30rem;
-      background: #d62424;
+      background: #0a0a0a;
       overflow: hidden;
     }
     .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta input,
@@ -826,17 +827,17 @@ header {
       cursor: pointer;
     }
     .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta input:checked ~ .black {
-      box-shadow: 0 0 0 31.25rem #faf7f7;
+      
       transform: rotate(-225deg);
     }
     .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta input:checked ~ .red {
-      box-shadow: 0 0 0 31.25rem #f7f4f4;
+      
       transform: rotate(225deg);
     }
     .main .conocimientos .contenedor .contenedor-conocimientos .tarjeta .cambio {
       pointer-events: none;
       border-radius: 50%;
-      color: #bd0d0d;
+      color: #0f0e0e;
       background: #f0eded;
       transition: 0.5s;
       text-align: center;
@@ -1114,6 +1115,7 @@ header {
     align-items: center;
     justify-content: center;
   }
+
   .titulo-seccion h2 {
     font-size: 36px;
     color: #333;
@@ -1123,5 +1125,4 @@ header {
     text-transform: uppercase;
   }
 }
-
 
