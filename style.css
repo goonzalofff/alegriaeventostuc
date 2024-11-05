@@ -566,11 +566,11 @@ header {
 .main2 .certificados {
   min-height: 100vh;
   background:linear-gradient(45deg,hsl(216, 17%, 94%),#c6cdcf,#a8ad64,#ebeeed );
-  color: #e7dede;
+  color: #0f0f0f;
   padding: 5rem 10;
   margin-bottom: 3rem;
   text-align: center;
-  
+  font-family: cursive;
   
 }
 
@@ -1002,7 +1002,7 @@ header {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
-    right: 1%;
+    right: calc(50% - 25px);
   }
 }
 
