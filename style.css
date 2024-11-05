@@ -276,7 +276,7 @@ header {
 /* Sección de Información */
 .info-section {
   padding: 60px 20px;
-  background-image: url('..//280097701_514114566998691_7547371068766639885_n.jpg'); /* Ruta de la imagen de fondo */
+  background-image: url('.//280097701_514114566998691_7547371068766639885_n.jpg'); /* Ruta de la imagen de fondo */
   background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
   background-position: center;
   background-attachment: fixed; /* Para efecto de paralaje */
